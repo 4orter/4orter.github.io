@@ -1,0 +1,170 @@
+/* Color Palette
+darkgray - #272727
+mediumgray - #484848
+lightgray - #818181
+mustardgold - #998E0E
+*/
+
+/* Main CSS
+------------------ */
+html, body {
+    height: 100%;
+}
+html {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {box-sizing: inherit;}
+body {
+    background-color: #484848;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 7rem;
+    letter-spacing: 0.2em;
+}
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.logo img {height: 100px;}
+.resume {
+    text-decoration: none;
+    background-color: #998E0E;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 5px;
+}
+
+/* Menu + Animation
+------------------------------------ */
+/* Check out this menu bar animation on my JSFiddle at
+   https://jsfiddle.net/tyeporter/2juk0xts/ */
+
+ /* Menu / Hamburger Icon */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 46px;
+    top: 46px;
+    padding: 10px;
+    z-index: 2;
+}
+.top-bar, .bottom-bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    transition: all .5s ease;
+}
+.top-bar.close {
+    margin-top: 20px;
+    transform: rotate(45deg);
+    width: 100%;
+    padding: 2px;
+    position: relative;
+    top: 2px;
+}
+.bottom-bar.close {
+    margin-bottom: 20px;
+    transform: rotate(-45deg);
+    width: 100%;
+    padding: 2px;
+    position: relative;
+    bottom: 2px;
+}
+
+/* Menu */
+.menu {
+    background-color: #272727;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 300px;
+}
+nav a {
+    display: block;
+    font-size: 2.5rem;
+    padding-bottom: 2.3rem;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {color: #818181;}
+.menu-inactive {display: none;}
+
+
+/* Butttons
+----------------------- */
+.btn-container {
+    /* background-color: lightblue; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 45%;
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s ease;
+}
+.primary-btn {
+    background-color: #998E0E;
+    box-shadow: 0 0 15px #272727;
+}
+.secondary-btn {
+    background-color: #272727;
+    box-shadow: 0 0 10px #000;
+}
+.primary-btn:hover, .secondary-btn:hover {box-shadow: 0 0 0 transparent;}
+.primary-btn:active {background-color: #171717;}
+.secondary-btn:active{background-color: #675F09;}
+
+.logo {
+    /* background-color: #fff; */
+    height: 100px;
+    width: 200px;
+}
+.contact {
+    position: absolute;
+    bottom: 46px;
+}
+a.git, a.mail {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 5px 15px 0 0;
+}
+.icons a:last-of-type{
+    margin-right: 0;
+}
+a.mail:hover, a.git:hover, .icons a:hover  {color: #998E0E;}

@@ -1,0 +1,88 @@
+
+body {background-color: #FAFAFA;}
+.email-container {
+  background-color: #FFF;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Maven Pro', sans-serif;
+  color: #30383D;;
+}
+a.logo {
+    display: block;
+    width: 100%;
+}
+img.banner {
+    width: 100%;
+    margin: 0;
+}
+
+.email-content {border: 1px solid rgba(48, 56, 61, 0.3);}
+
+p {
+    padding: 10px 40px;
+}
+p a {
+    text-decoration: none;
+    color: #fd0027;
+}
+
+.table-link {text-decoration: none;}
+table {
+    margin: 25px auto;
+    text-align: left;
+    width: 90%;
+    font-size: .9em;
+    color: rgba(48, 56, 61, 0.8);
+}
+table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 18px 0;
+    color: #30383D;
+}
+table th {
+    height: 40px;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #fd0027;
+    letter-spacing: .1em;
+}
+td {height: 25px;}
+td.company {
+    font-size: 1em;
+    font-weight: bold;
+}
+tr.tr-border td {height: 0px;}
+tr.tr-border {
+    font-size: 0;
+    height: 1px;
+    background-color: rgba(48, 56, 61, 0.3);
+}
+
+.note p {
+    padding: 0 90px;
+    font-size: .7em;
+    color: rgba(48, 56, 61, 0.8);
+}
+.note-b p {font-weight: bold;}
+.note-s a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+div.social {margin-top: 20px;}
+a i {
+    font-size: 1.5em;
+    margin: 10px;
+    color: rgba(48, 56, 61, 0.3);
+}
+
+img.logo-md {
+    width: 25%;
+    margin: 0;
+}
+img.logo-sm {
+    width: 15%;
+    margin: 15px 0 0 0;
+}

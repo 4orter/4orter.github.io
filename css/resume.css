@@ -1,0 +1,116 @@
+/* Color Palette
+darkgray - #272727
+mediumgray - #484848
+lightgray - #818181
+mustardgold - #998E0E
+*/
+
+/* Type + General Styles
+---------------------------- */
+h1 {
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .40);
+}
+h4 {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    margin:0 0 1.2rem 0;
+}
+p {
+    font-size: .9rem;
+    color: #fff;
+    margin-top: 0.7rem;
+}
+.title {text-shadow: 0 0 20px rgba(0, 0, 0, .60);}
+.current {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .40);
+    background-color: #818181;
+}
+.org {text-transform: uppercase;}
+
+/* Info Area
+--------------------*/
+.info-area {
+    background-color: #272727;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 46px;
+    transition: all .5s ease;
+}
+.info-h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.5rem;
+    margin: 0.8rem 0;
+    text-transform: none;
+}
+.info-p {
+    font-size: .9rem;
+    color: #fff;
+    margin: 0.2rem 0 2rem;
+}
+
+/* Content Area
+----------------------- */
+.content-area {
+    background-color: #484848;
+    width: 80%;
+    margin-left: 20%;
+    padding: 50px 96px 0 90px;
+    height: 100%;
+    box-shadow: -10px 0 15px rgba(0, 0, 0, .16);
+    position: relative;
+    overflow: scroll;
+}
+
+/* Experience Section */
+.xp-section {
+    margin-bottom: 50px;
+}
+.xp-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    padding: 50px 30px 30px;
+}
+.xp-skills {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.xp-box {
+    border-radius: 5px;
+    padding: 25px;
+    transition: all .5s ease;
+}
+.xp-box p {font-weight: 200; letter-spacing: 0.1rem;}
+.xp-box:hover {box-shadow: 0 0 20px rgba(0, 0, 0, .40);}
+
+/* Media Queries
+---------------------- */
+@media (max-width: 1032px){
+    .content-area {box-shadow: none;}
+    .info-area {
+        width: 0;
+        height: 0;
+        display: none;
+        position: relative
+    }
+    .content-area {
+        width: 100%;
+        margin: 0;
+    }
+    .xp-info {
+        grid-template-columns: 1fr;
+        padding-right: 30px;
+    }
+}

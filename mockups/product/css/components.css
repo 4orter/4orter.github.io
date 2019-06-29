@@ -1,0 +1,100 @@
+/************************************
+    COMPONENTS
+    ----------
+    General styles throughout site.
+*************************************/
+  
+/* Box Model Fix */
+html {box-sizing: border-box; font-size: 16px;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding-top: 50px;
+}
+
+/* nav 
+----------------*/
+.nav {
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.95;
+    top: 0;
+    font-size: 0; /* get rid of extra white space */
+}
+.nav-dark {background-color: #1B1B1B;}
+.nav-items-left {text-align: left;}
+.nav-items-center {text-align: center;}
+.nav-items-right {text-align: right;}
+.nav a {
+    font-size: 1rem; /* redeclaration of font-size */
+    color: #8E8E8E;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+.nav a:hover {color: #fff;}
+.f-left {float: left;}
+.f-right {float: right;}
+
+.content-wrap {
+    margin: 16px;
+    padding: 50px;
+    height: 500px;
+    position: relative; /* For Swift Image */
+    background-color: #F9F9F9;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    font-weight: 300;
+}
+.btn:hover {
+    border: 1px solid gray;
+    background-color: #1B1B1B;
+}
+
+
+.flex-container {display: flex;}
+.flex-item-50 {width: 50%;}
+
+.item {
+    text-align: center;
+    position: relative;
+    height: 650px;
+    padding: 48px;
+    background-color: lightgray;
+}
+.item-l {margin: 0 8px 16px 16px;}
+.item-r {margin: 0 16px 16px 8px;}
+.item-group {
+    margin: 16px 0;
+    padding: 16px 0;
+}
+.item-group h2 {margin-bottom: 10px; font-weight: 500;}
+.item-img {
+    position: absolute;
+    width: 70%;
+    bottom: 0;
+    left: 15%;
+}
+
+.bg-dark {background-color: #373737; color: #fff;}
+.bg-default {background-color: #F7F8F9; color: #1B1B1B;}
+.bg-primary {background-color: #FF7300; color: #fff;}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.col {width: 15%;}

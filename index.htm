@@ -1,24 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="University Student | Developer">
+        <!-- Go to https://fontawesome.com/v4.7.0/get-started/ to generate your own embed code -->
         <script src="https://use.fontawesome.com/b68bc21437.js"></script>
-        <title>Tye Porter | Student</title>
+
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+        <title>Tye Porter | Front-End Developer</title>
+         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Varela+Round" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
     </head>
     <body>
-        <div class="name-banner">
-            <h1 class="first-name">Tye</h1>
-            <h1 class="last-name">Porter</h1>
+        <!-- Menu Icon + Menu -->
+        <div class="menu-icon">
+            <div class="top-bar"></div>
+            <div class="bottom-bar"></div>
         </div>
-
-        <div class="mobile-icons">
-            <a href="https://twitter.com/4orter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://linkedin.com/in/tyeporter7" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/tyeporter" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </div>
+        <section class="menu menu-inactive">
+            <nav>
+                <a href="index.htm">Home</a>
+                <a href="" style="display: none;">Contact</a>
+                <a href="portfolio.htm">Portfolio</a>
+                <a href="resume.htm">Resume</a>
+            </nav>
+        </section>
+        <!-- Info Area -->
+        <section class="info-area">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.htm"><img src="img/lion.svg" alt=""></a>
+                <!--
+                    Icon Title: "Animal, leo, lion, mammal, panthera, wildlife, zoo icon"
+                    By: Chanut is Industries (https://www.iconfinder.com/Chanut-is)
+                    Licence: Creative Commons
+                    ---------------------------------------------------------------
+                    Fill color is changed from the original.
+                -->
+            </div>
+            <!-- Contact -->
+            <div class="contact">
+                <h4>Email</h4>
+                <p><a class="mail" href="mailto:tyeporter@outlook.com">tyeporter@outlook.com</a></p>
+                <h4>Github</h4>
+                <p><a class="git" href="https://github.com/tyeporter" target="_blank">@tyeporter</a></p>
+                <h4>Find Me On</h4>
+                <div class="icons">
+                    <a href="https://twitter.com/4orter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://dribbble.com/tyeporter" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                    <a href="https://jsfiddle.net/user/tyeporter" target="_blank"><i class="fa fa-jsfiddle" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- End of Info Area -->
+        <!-- Content Area -->
+        <section class="content-area">
+            <!-- Name Banner -->
+            <div class="banner-container">
+                <div class="name-banner">
+                    <h1 class="first-name">Tye</h1>
+                    <h1 class="last-name">Porter</h1>
+                </div>
+            </div>
+            <!-- Profile -->
+            <div class="profile">
+                <h4 class="title">Front-End Developer – <span alt="">📍</span> Austin, TX</h4>
+                <p class="description">I am Tye Porter, a huge lover of user interfaces. A 23-year-old University student living the <span alt="heart">❤️ </span>of Texas and exploring the developer world 🌎.</p>
+                <div class="btn-container">
+                    <a href="portfolio.htm" class="btn primary-btn">Portfolio</a>
+                    <a href="resume.htm" class="btn secondary-btn">Resume</a>
+                </div>
+                <div class="mobile-icons">
+                    <a href="https://twitter.com/4orter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://github.com/tyeporter" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://dribbble.com/tyeporter" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                    <a href="https://jsfiddle.net/user/tyeporter" target="_blank"><i class="fa fa-jsfiddle" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- End of Content Area -->
+        <script type="text/javascript" src="js/menu.js"></script>
     </body>
 </html>
