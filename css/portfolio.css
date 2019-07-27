@@ -152,6 +152,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+.signup-email {
+    background-image: url(../mockups/signup-email/screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
 .thumb-light {
     background-image: url(../img/thumb-light.png);
     background-size: cover;
