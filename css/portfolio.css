@@ -157,6 +157,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+.promotional-email {
+    background-image: url(../mockups/promotional-email/screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
 .thumb-light {
     background-image: url(../img/thumb-light.png);
     background-size: cover;
