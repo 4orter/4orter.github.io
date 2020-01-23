@@ -1,0 +1,27 @@
+.header {
+	background-color: #000;
+	display: block;
+	color: #fff;
+	padding-left: 16px;
+}
+
+.search-field {
+	height: 75px;
+	font-size: 18px;
+	display: block;
+	width: 70%;
+	margin: 15px auto 0;
+	padding: 0 8px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+.movie-rows {
+	margin: 15px;
+}
+
+.poster {
+	border-radius: 5px;
+}
